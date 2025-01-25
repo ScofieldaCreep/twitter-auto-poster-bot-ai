@@ -24,97 +24,99 @@ async function run() {
   });
 
   // Write your prompt here
-  const prompt =
-    `
+  const prompt = `
 **Prompt:**
 
 You are a seasoned marketing copywriting expert. Based on the following provided “AlgoAce” product and web copy material, automatically generate a series of high-conversion marketing content across multiple channels. The objectives are:
-1. Clearly highlight the product’s value, key features, and differentiation.
-2. Combine user pain points with the product’s solutions to spark potential customer interest.
+1. Clearly highlight the products value, key features, and differentiation.
+2. Combine user pain points with the products solutions to spark potential customer interest.
 3. Use elements like free trial, exclusive experience, and user recommendations to drive immediate action (install, register, or subscribe).
 
-Please produce the following types of marketing content in **Chinese**:
-1. **Short Generic Promotion Copy** (suitable for social media and mass messaging, concise and direct, with a strong CTA).
-2. **Marketing Email Template** (focused on user pain points, product highlights, trial benefits, etc., guiding them to click and register).
-3. **Promotional Ad Copy** (suitable for search/social media ads, emphasizing pain-point solutions and boosting appeal).
-4. **Key Advantages Summary** (for brief display on a website or App, highlighting key selling points).
-5. **User Testimonials** (quote existing user feedback, enhancing social proof and trust).
+  Please produce a tweet for the product.
 
-### “AlgoAce” Product Information
+  Below is a structured, step-by-step set of English marketing copy drafts for “AlgoAce,” covering the five required content types. Each type offers a concise yet powerful variation that can be fine-tuned as needed.
 
-- **Product Name**: AlgoAce  
-- **Functional Positioning**: AI-powered coding assistant that automatically parses algorithm or coding questions on web pages, providing detailed answers and sample code. It supports multiple programming languages and personalized thinking styles.  
-- **Core Value**:  
-  1. **One-click Access**: Directly invoke AI to parse questions and provide solutions on platforms like LeetCode, HackerRank, CoderPad, etc.  
-  2. **Customizable Output**: Tailor answers according to user preferences (language, code style, context).  
-  3. **Top-tier AI Model**: Employs a leading-edge model for high accuracy and practicality.  
-  4. **Invisible Assistance**: Easy to operate, integrated into the browser without detection.  
+1. Short Generic Promotion Copy (50 English characters)
 
-- **Primary Selling Points**:  
-  1. **Accurate and Low-profile**: No distractions, no pop-ups, no privacy issues, and won’t interfere with interviews.  
-  2. **Unlimited Usage**: No usage or time limits, avoiding interruptions or worry about running out of quota.  
-  3. **Fast Onboarding**: Offers a 30-minute free trial, then a one-click upgrade to unlock more features.  
-  4. **Real Interview Experience**: Strives to mimic real interview scenarios; no errors or awkward prompts at inopportune times.  
+Draft (50 characters):
 
-- **Pain Points**:  
-  1. Other similar tools have usage limits, annoying pop-ups, or recording prompts that affect interview performance or even cause loss of job opportunities.  
-  2. Low-quality AI models waste time and fail to provide reliable solutions.  
-  3. Complex usage environments and cumbersome configurations limit practical scenarios.  
+Boost coding interviews with AlgoAce: Try free now
 
-- **Existing User Feedback**:  
-  - Highlights that AlgoAce might “disappear” soon, but is currently free to try—urging potential users to install and use it ASAP.  
-  - Experienced users from Google, Amazon, Microsoft, Apple, etc., call it an “irreplaceable” productivity tool.  
-  - Saves considerable time, helps pass interviews, and earn higher salaries.  
-  - Smooth and seamless experience with no complicated setup.  
+2. Marketing Email Template
 
-- **Additional Information**:  
-  1. About to launch an interview question bank and auto-save feature.  
-  2. After the free trial, quickly upgrade to a paid version for advanced models and full LeetCode database access.  
-  3. Multi-language output customization (with more comprehensive info in Chinese).  
-  4. Emphasize a limited-time or exclusive opportunity to create urgency.  
+Subject: Ace Your Interviews with AlgoAce
 
-- **Main CTAs**:  
-  1. Start Free Trial  
-  2. View Subscription Plans  
-  3. Schedule Demo  
+Email Body:
 
-### Output Requirements
+1) Introduction & Pain Points
+Hello [Name],
+Are coding challenges and complex algorithms slowing you down or jeopardizing your interviews? Many AI tools limit your usage or interrupt you with pop-ups, making tough problems even harder to solve.
 
-1. **Short Generic Promotion Copy**  
-   - Word Count: 50–100 Chinese characters  
-   - Tone: Concise, direct, strong promotional flair  
-   - Purpose: For social media or broadcast messages, guiding users to click or install
+2) Product Highlights
+	•	One-Click Access: Invoke AlgoAce on LeetCode, HackerRank, or anywhere else to parse questions and generate solutions instantly.
+	•	Customizable Answers: Set your preferred programming language and style.
+	•	High Accuracy: Built with a cutting-edge AI model, ensuring reliable results.
+	•	Low-Profile Integration: Works invisibly in your browser, never disturbing your flow or interview process.
 
-2. **Marketing Email Template**  
-   - Must include clear pain points, product highlights, user testimonials, and CTA  
-   - Can be written in segments (e.g., opening greeting/pain point -> feature introduction -> benefits -> CTA)
+3) Benefits & User Testimonial
+Current users—from Google to Microsoft—call AlgoAce “irreplaceable,” thanks to its unlimited usage and consistent performance. No more worrying about usage limits or awkward pop-ups during live interviews.
 
-3. **Promotional Ad Copy**  
-   - Word Count: 30–50 Chinese characters  
-   - Purpose: Quickly grab attention and interest, encouraging users to click
+4) Free Trial & Upgrade Offer
+Activate your 30-minute free trial to experience real-time coding assistance. After your trial, a single click upgrades you to full access, including advanced AI models and an extensive LeetCode question bank.
 
-4. **Key Advantages Summary**  
-   - Focus on: “Unlimited usage,” “High accuracy,” “No interference,” “Personalization”  
-   - Used in website banners or small in-app pop-ups
+5) Call to Action
+Take control of your coding interviews today:
+	•	Start Free Trial Now
+	•	Or View Subscription Plans
 
-5. **User Testimonials**  
-   - Format: 1–2 quotes of real user praise + user name and company/position  
-   - Purpose: Increase persuasiveness and credibility
+Best regards,
+[Your Name / Company]
 
-> **Format of Your Output**:  
-> 1. Output the draft for each type of marketing copy, with titles.  
-> 2. Keep the structure clear and paragraphs logically organized.  
-> 3. Use action-oriented language such as “Start now,” “Immediately,” “Don’t miss out,” etc.  
-> 4. Each type of copy can have 1–2 style variations for selection and fine-tuning.
+3. Promotional Ad Copy (30 English characters)
 
-**Please use the above information and requirements to automatically generate marketing content suitable for multi-channel promotion.**
-";`
+Draft (30 characters):
+
+Ace coding interviews: AlgoAce
+
+4. Key Advantages Summary
+
+Unlimited Usage
+Never run out of queries or worry about time caps.
+
+High Accuracy
+Top-tier AI model ensures reliable, high-quality solutions.
+
+No Interference
+Invisible in your browser—no intrusive pop-ups or logs.
+
+Personalization
+Fully customizable outputs: language, style, and context.
+
+5. User Testimonials
+
+	“AlgoAce saved me countless hours and boosted my interview performance—truly irreplaceable!”
+—Sarah Lin, Senior Software Engineer at Google
+
+Feel free to adjust tones, add visual elements, or refine the messages to suit your channels. Each draft is designed to spark interest and drive immediate action toward installing, registering, or subscribing to AlgoAce.
+
+`;
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
   const text = response.text();
-  console.log(text);
-  sendTweet(text);
+  // const text = "This is a test tweet from AlgoAce Bot";
+  const textWithLink =
+    text +
+    "\n\n" +
+    "Check it out: https://chromewebstore.google.com/detail/algo-ace/jgmbkilelblcdpcokkclihbedbmccdla";
+
+  const textWithLinkAndHashTag =
+    textWithLink +
+    "\n\n" +
+    "#AlgoAce #CodingChallenges #InterviewPrep\n" +
+    "#AI #TechInterview #VO";
+  console.log(textWithLinkAndHashTag);
+  sendTweet(textWithLinkAndHashTag);
 }
 
 run();
